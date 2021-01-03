@@ -1,0 +1,440 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+}
+
+.navbar-brand {
+    img {
+        max-width: 260px;
+        max-height: 50px;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -8px !important;
+    margin-bottom: -8px !important;
+    margin-right: -10px !important;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn-login {
+    background-color: #F3A73E;
+    color: black;
+    font-weight: bold;
+    &:hover {
+        background-color: #CC9A54;
+        color: black;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        font-weight: 800;
+    }
+    .nav-heading {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.btn-see-more {
+    background-color: #1C2BFF;
+    margin-bottom: 9px;
+    width: 90px;
+    height: 38px;
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 11px;
+    padding: 5px;
+    &:hover {
+        background-color: #1120EB;
+    }
+}
+
+// header
+header {
+    padding: 231px 0px 285px;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+    h1 {
+        font-size: 50px;
+        font-family: 'Playfair display', sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    p {
+        font-size: 25px;
+        font-weight: 500;
+        color: #FFFFFF;
+    }
+}
+
+.section-info {
+    min-height: 690px;
+    background: linear-gradient(rgba(178, 67, 156, 0.55) 0%, rgba(172, 37, 145, 0.74) 22.17%, rgba(74, 16, 63, 0.98) 100%);
+    color: #FFFFFF;
+    hr {
+        width: 110px;
+        border-top: 3px solid;
+        margin-left: -0px;
+        color: #FFFFFF;
+    }
+    .catering-description {
+        margin-top: 90px;
+        h3 {
+            font-size: 25px;
+            font-weight: 700px;
+        }
+        p {
+            font-weight: 100px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+    .card-catering {
+        margin-top: 90px;
+        img {
+            border-radius: 20px;
+        }
+    }
+    h1 {
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-family: 'Playfair Display', sans-serif;
+        margin-top: 110px;
+        margin-bottom: 90px;
+    }
+}
+
+.info-panel {
+    .info-panel-content {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        margin-top: -70px;
+        padding: 30px;
+        .service-icon {
+            width: 60px;
+            height: 60px;
+        }
+        .info-panel-desc {
+            font-size: 18px;
+            color: #C25FAE;
+            margin-left: 70px !important;
+            margin-top: 8px;
+        }
+    }
+}
+
+.best-product {
+    margin-top: 150px;
+    h1 {
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .best-info-content {
+        margin-top: 50px;
+        .card-product {
+            border-radius: 40px;
+        }
+        img {
+            border-radius: 40px 40px 0px 0px;
+        }
+        h3 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}
+
+.why-us {
+    margin-top: 150px;
+    .heading-info {
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Playfair Display', sans-serif;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+    .why-us-content {
+        .img-why-us {
+            width: 100px;
+        }
+        .why-us-text {
+            margin-left: 25px;
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        .why-us-description {
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+    }
+}
+
+.testimonial {
+    margin-top: 150px;
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Playfair Display', sans-serif;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .testi-content {
+        p {
+            font-size: 18px;
+            font-weight: 300;
+            font-style: italic;
+            margin-top: 60px;
+        }
+    }
+    .testi-people {
+        margin-top: 10px;
+        .img-testi {
+            width: 80px;
+        }
+        .testi-name {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .testi-status {
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
+
+.section-footer {
+    margin-top: 150px;
+    min-height: 300px;
+    background-color: black;
+    color: #FFFFFF;
+    h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    a,
+    p {
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    .disclaimer {
+        font-size: 14px;
+    }
+}
+
+// detail page
+.section-detail {
+    min-height: 350px;
+    background-color: #B2439C;
+    .gallery {
+        margin-top: 20px;
+        .xzoom-container {
+            display: block;
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+                border-radius: 20px;
+            }
+            .xactive {
+                box-shadow: none;
+            }
+        }
+    }
+    .product-informations {
+        margin-bottom: 50px;
+        th {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        td {
+            font-size: 18px;
+            font-weight: 400;
+            color: #787272;
+        }
+    }
+    .btn-order-now {
+        background-color: #1C2BFF;
+        width: 120px;
+        height: 38px;
+        color: #FFFFFF !important;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 11px;
+        padding: 5px;
+        &:hover {
+            background-color: #1120EB;
+        }
+    }
+}
+
+.card-detail {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #787272;
+    }
+}
+
+.section-detail-header {
+    margin-top: 40px;
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+    }
+    span {
+        font-weight: bold;
+    }
+}
+
+// chekout page
+.section-checkout {
+    .detail-order {
+        margin-bottom: 50px;
+        line-height: 40px;
+        th {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        td {
+            font-size: 18px;
+            font-weight: 400;
+            color: #787272;
+        }
+    }
+    .btn-add-now {
+        background-color: #1C2BFF;
+        margin-bottom: 9px;
+        width: 90px;
+        height: 38px;
+        color: #FFFFFF !important;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 11px;
+        padding: 5px;
+        &:hover {
+            background-color: #1120EB;
+        }
+    }
+    .btn-cancel {
+        background-color: #FF951C;
+        color: #FFFFFF;
+        margin-bottom: 9px;
+        width: 90px;
+        height: 38px;
+        color: #FFFFFF !important;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 11px;
+        padding: 5px;
+        &:hover {
+            background-color: #F38200;
+            color: #FFFFFF;
+        }
+    }
+    .noted {
+        font-style: italic;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .item-recommend {
+        margin-top: 150px;
+        h2 {
+            font-family: 'Playfair Display', sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 50px;
+        }
+        .btn-center {
+            margin-bottom: 20px !important;
+        }
+    }
+}
+
+// success checkout
+.section-success {
+    height: 90vh;
+    .item-mail {
+        width: 220px;
+        height: 220px;
+    }
+    h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #535456;
+    }
+    .btn-home-page {
+        background-color: #1C2BFF;
+        margin-bottom: 9px;
+        width: 90px;
+        height: 38px;
+        color: #FFFFFF !important;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 11px;
+        padding: 5px;
+        &:hover {
+            background-color: #1120EB;
+        }
+    }
+}
+
+// login-page
+.login-page {
+    margin-top: 70px;
+    .card-login {
+        border-radius: 20px;
+    }
+    .btn-login-page {
+        background-color: #1C2BFF;
+        margin-bottom: 9px;
+        height: 38px;
+        color: #FFFFFF !important;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 11px;
+        padding: 5px;
+        &:hover {
+            background-color: #1120EB;
+        }
+    }
+    .lupa-password {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    // tampilan responsive mobile
+    @media screen and (max-width: 576px) {
+        .card-login {
+            width: 420px;
+        }
+        margin-left: 50px;
+    }
+}
