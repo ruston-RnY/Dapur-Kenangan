@@ -5,7 +5,7 @@
 @section('content')
     <header class="text-center">
         <h1>Your Memories of your favorite<br> childhood foods</h1>
-        <p>Get food that makes you happier</p>
+        <p>Get food that makes you happy</p>
     </header>
     <!-- Section Info -->
     <section class="section-info">
