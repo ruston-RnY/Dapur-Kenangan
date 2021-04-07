@@ -41,7 +41,7 @@
                         </div>
                         <div class="col-lg ">
                             <img src="{{ url('frontend/images/food.png') }}" alt="" class="service-icon float-left">
-                            <h4 class="info-panel-desc ">Higienis Foods</h4>
+                            <h4 class="info-panel-desc ">Local Foods</h4>
                         </div>
                         <div class="col-lg">
                             <img src="{{ url('frontend/images/customer-support.png') }}" alt="" class="service-icon float-left">
