@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="col-lg ">
                             <img src="{{ url('frontend/images/delivery-man.png') }}" alt="" class="service-icon float-left ">
-                            <h4 class="info-panel-desc ">Free Delivery</h4>
+                            <h4 class="info-panel-desc ">Fast Delivery</h4>
                         </div>
                         <div class="col-lg ">
                             <img src="{{ url('frontend/images/food.png') }}" alt="" class="service-icon float-left">
